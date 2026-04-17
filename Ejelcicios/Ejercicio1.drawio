@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="GGPjqAXIxRUUlOeSKIkg">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="u80XpXzckIH0KPxgt-N0-6" edge="1" parent="1" source="u80XpXzckIH0KPxgt-N0-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="u80XpXzckIH0KPxgt-N0-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u80XpXzckIH0KPxgt-N0-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Socio" vertex="1">
+          <mxGeometry height="150" width="170" x="20" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="u80XpXzckIH0KPxgt-N0-3" parent="u80XpXzckIH0KPxgt-N0-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;#ID_Socio: int&lt;/div&gt;#NroSocio: int&lt;div&gt;#Nombre:string&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="55" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="u80XpXzckIH0KPxgt-N0-14" parent="u80XpXzckIH0KPxgt-N0-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="+AñadirReserva(): void" vertex="1">
+          <mxGeometry height="40" width="132.5" x="18.75" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="u80XpXzckIH0KPxgt-N0-4" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Reserva" vertex="1">
+          <mxGeometry height="150" width="170" x="510" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="u80XpXzckIH0KPxgt-N0-5" parent="u80XpXzckIH0KPxgt-N0-4" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="#Fecha: int&lt;div&gt;#TipoDeporte: string&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="115" x="27.5" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u80XpXzckIH0KPxgt-N0-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1:N" vertex="1">
+          <mxGeometry height="30" width="60" x="450" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u80XpXzckIH0KPxgt-N0-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1:N" vertex="1">
+          <mxGeometry height="30" width="60" x="190" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u80XpXzckIH0KPxgt-N0-15" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="20" y="120" as="sourcePoint" />
+            <mxPoint x="190" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

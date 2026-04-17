@@ -1,0 +1,57 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="MU_GbXdvTkmj2nZUhIOk">
+    <mxGraphModel dx="975" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ESdyW_i4izUeHg75tpc--1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Producto" vertex="1">
+          <mxGeometry height="130" width="160" x="20" y="20" as="geometry">
+            <mxRectangle height="30" width="90" x="20" y="20" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ESdyW_i4izUeHg75tpc--3" parent="ESdyW_i4izUeHg75tpc--1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="#codigo: int&lt;div&gt;-precio: double&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="35" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ESdyW_i4izUeHg75tpc--13" parent="ESdyW_i4izUeHg75tpc--1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;div&gt;+calcularPrecioFinal():double&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="35" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ESdyW_i4izUeHg75tpc--4" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Libro" vertex="1">
+          <mxGeometry height="130" width="160" x="230" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ESdyW_i4izUeHg75tpc--5" parent="ESdyW_i4izUeHg75tpc--4" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="-autor: String&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="85" x="35" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ESdyW_i4izUeHg75tpc--14" edge="1" parent="ESdyW_i4izUeHg75tpc--4" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint y="70" as="sourcePoint" />
+            <mxPoint x="160" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ESdyW_i4izUeHg75tpc--15" parent="ESdyW_i4izUeHg75tpc--4" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;div&gt;+calcularPrecioFinal():double&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="35" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ESdyW_i4izUeHg75tpc--8" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="ArticuloPapeleria" vertex="1">
+          <mxGeometry height="130" width="160" x="430" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ESdyW_i4izUeHg75tpc--9" parent="ESdyW_i4izUeHg75tpc--8" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="-tipoMaterial: String" vertex="1">
+          <mxGeometry height="30" width="110" x="25" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ESdyW_i4izUeHg75tpc--16" parent="ESdyW_i4izUeHg75tpc--8" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;div&gt;+calcularPrecioFinal():double&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="40" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ESdyW_i4izUeHg75tpc--11" edge="1" parent="1" source="ESdyW_i4izUeHg75tpc--8" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="ESdyW_i4izUeHg75tpc--8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="490" y="260" as="sourcePoint" />
+            <mxPoint x="540" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ESdyW_i4izUeHg75tpc--12" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="20" y="90" as="sourcePoint" />
+            <mxPoint x="180" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
